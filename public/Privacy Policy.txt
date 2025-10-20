@@ -1,0 +1,95 @@
+Privacy Policy
+
+Last updated: October 19, 2025
+
+This Privacy Policy explains how SnapCoach LLC (“SnapCoach,” “we,” “us,” or “our”) collects, uses, and discloses information when you use our services in the United States. The Service is offered only to individuals located in the United States. If you are outside the U.S., please do not use the Service.
+
+1) Who We Are & How to Contact Us
+
+Controller: SnapCoach LLC
+Website: https://aisnapcoach.com
+Email: support@aisnapcoach.com
+
+2) Scope & Definitions
+
+“Service” means the SnapCoach mobile application and the SnapCoach website at https://aisnapcoach.com
+ (including support pages).
+“User Content” means photos, videos, audio, and other media you upload or capture to receive AI guidance.
+“Personal Information” means information that identifies or could reasonably be linked to an individual or household.
+“Service Provider” means a vendor processing information for us under contract.
+
+3) What We Collect (Minimal Collection)
+
+We collect only what is necessary to run the Service:
+
+Apple-provided anonymized user ID (to operate your account and protect the Service).
+
+User Content (photos/videos/audio you choose to submit) to provide core features.
+
+Transient technical data (e.g., IP address in transit) solely to route requests and provide security; we do not retain it beyond what’s necessary for the session.
+
+We do not collect payment card details, precise geolocation, advertising identifiers, analytics profiles, or behavior-based advertising data.
+
+4) How We Use Information
+
+Provide and maintain the Service and core features you request.
+
+Operate your account, provide customer support, and protect the Service from abuse.
+
+Comply with law and enforce our terms.
+
+AI & model improvement. We do not use your User Content to train or improve AI models. Our vendors are contractually prohibited from training their own models on your data.
+
+No identification. We do not perform facial recognition, voiceprint identification, or attempt to identify people in your content.
+
+5) Retention
+
+User Content is kept up to 24 hours to deliver requested functionality, then deleted.
+
+Apple anonymized user ID is retained for the life of your account and deleted upon account deletion or verified request.
+
+Backups. User Content is excluded from backups by design.
+We may retain minimal records where required by law (e.g., to resolve disputes).
+
+6) Cookies & SDKs
+
+We do not use advertising or analytics cookies/SDKs. The website/app may use strictly necessary technologies (e.g., session management, security) to function.
+
+7) When We Disclose Information
+
+We disclose information only as needed to operate the Service:
+
+Service Providers: cloud hosting/storage/CDN; AI inference/TTS/STT strictly to process your requests; authentication; customer support. Providers may use data only to perform services for us and must protect it. We maintain a list of our major service-provider categories and can provide additional details upon request. Our contracts prohibit providers from using data to train their own models.
+
+Legal/Safety: where required by law or to protect rights, safety, and the Service.
+
+Business transfers: in connection with a merger, acquisition, or asset sale (we will notify you of material changes).
+
+No Sale/Sharing. We do not sell or share Personal Information for cross-context or behavior-based advertising.
+
+8) Your Privacy Requests
+
+You can access or delete your information (including account deletion) or ask questions by emailing support@aisnapcoach.com
+ with the subject “Privacy Request.” We will verify your identity as appropriate and respond within a reasonable period.
+Appeal. If we decline your request, you may reply to ask for a further review, and we will take another look.
+
+9) Children’s Privacy
+
+The Service is not directed to children under 13. We do not knowingly collect information from children under 13. If we learn we have done so, we will delete it. Parents/guardians may contact support@aisnapcoach.com
+.
+
+10) Security
+
+We use technical and organizational measures including encryption in transit and at rest, access controls, least-privilege, and security monitoring. No method of transmission or storage is 100% secure.
+
+11) Purchases
+
+If you make a purchase, it is processed by the app marketplace (e.g., Apple App Store). We do not receive or store your full payment card details.
+
+12) Links to Other Sites
+
+The Service may contain links to third-party websites or services that we do not operate. We are not responsible for their content or privacy practices. We encourage you to review the privacy policies of those sites.
+
+13) Changes to This Policy
+
+We may update this Policy from time to time. If we make material changes, we will notify you in the app or by email and update the “Last updated” date above.
