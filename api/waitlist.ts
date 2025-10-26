@@ -27,13 +27,26 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Validate email
     if (!email || typeof email !== 'string') {
+      console.error('Email validation failed: Email is required')
       return res.status(400).json({ error: 'Email is required' })
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(email)) {
+      console.error('Email validation failed: Invalid format', email)
       return res.status(400).json({ error: 'Invalid email format' })
     }
+
+    // Check environment variables
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      console.error('Environment variables missing:', {
+        hasEmailUser: !!process.env.EMAIL_USER,
+        hasEmailPass: !!process.env.EMAIL_PASS,
+      })
+      return res.status(500).json({ error: 'Email service not configured' })
+    }
+
+    console.log('Configuring email transporter...')
 
     // Configure nodemailer
     const transporter = nodemailer.createTransport({
@@ -66,7 +79,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     // Send email
+    console.log('Sending email to:', 'lipengcheng808@gmail.com')
     await transporter.sendMail(mailOptions)
+    console.log('Email sent successfully!')
 
     return res.status(200).json({
       success: true,
@@ -74,8 +89,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     })
   } catch (error) {
     console.error('Error processing waitlist registration:', error)
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error'
+    console.error('Error details:', errorMessage)
     return res.status(500).json({
       error: 'Failed to process your request. Please try again later.',
+      details: process.env.NODE_ENV === 'development' ? errorMessage : undefined,
     })
   }
 }

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-white pt-24 pb-12 px-4 sm:px-6 lg:px-8">
@@ -91,8 +93,8 @@ const PrivacyPolicy = () => {
         </div>
 
         <div className="mt-12">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="inline-flex items-center text-orange-500 hover:text-orange-600 font-medium"
           >
             <svg
@@ -109,7 +111,7 @@ const PrivacyPolicy = () => {
               />
             </svg>
             Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
