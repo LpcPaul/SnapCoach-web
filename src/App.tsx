@@ -5,6 +5,7 @@ import Features from './components/Features'
 import Download from './components/Download'
 import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import FeedbackButton from './components/FeedbackButton'
 
 function HomePage() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
         <Footer />
+        <FeedbackButton />
       </div>
     </BrowserRouter>
   )
