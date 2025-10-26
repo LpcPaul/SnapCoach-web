@@ -5,6 +5,7 @@ import Features from './components/Features'
 import Download from './components/Download'
 import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import TermsOfUse from './components/TermsOfUse'
 import FeedbackButton from './components/FeedbackButton'
 
 function HomePage() {
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
         </Routes>
         <Footer />
         <FeedbackButton />

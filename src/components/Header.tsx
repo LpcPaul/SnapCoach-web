@@ -23,6 +23,12 @@ const Header = () => {
             >
               Privacy Policy
             </Link>
+            <Link
+              to="/terms-of-use"
+              className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
+            >
+              Terms of Use
+            </Link>
             <a
               href="#download"
               className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors font-semibold"
